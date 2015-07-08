@@ -3801,7 +3801,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		margin-bottom: 1.5em;
+		/*margin-bottom: 1.5em;*/
 	}
 
 		.spotlight .image {
@@ -3960,7 +3960,7 @@
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-section {
+#invitation,#support,#sponsor{
 	background-color: #ffffff;
 	position: relative;
 	width: 100%;
