@@ -118,7 +118,9 @@
 			max-width: 60em;
 			min-width: 48em;
 		}
+		.container.90{
 
+	}
 		.container.\37 5\25 {
 			width: 36em;
 		}
@@ -1826,10 +1828,12 @@
 		border-bottom: dotted 1px;
 		color: #4eb980;
 		text-decoration: none;
+		border-bottom-color: transparent;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
+			text-decoration: none;
 		}
 
 	strong, b {
@@ -2852,6 +2856,8 @@
 				background-size: 1600px 230px, auto;
 				margin-top: 0px;
 				padding: calc(460px + 4em) 0 6em 0;
+				background-position: top center,bottom center;
+				width:100%;
 			}
 
 				#footer:before {
@@ -3931,6 +3937,7 @@
 	width: 58em;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom:4em;
 }
 
 .change_background{
@@ -3954,18 +3961,22 @@
 	transition: all 0.3s ease-in-out;
 }
 section {
+	background-color: #ffffff;
 	position: relative;
 	width: 100%;
-	min-width: 960px;
 	height: auto;
 	clear: both;
 	z-index: 0;
+	padding-top:1em;
 }
 img{
 	width:100%;
 }
 div {
 	display: block;
+}
+#invitation h2,#sponsor h2,#support h2{
+	margin-bottom:2em;
 }
 #invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
 	position: relative;
@@ -3984,6 +3995,9 @@ div {
 }
 #sponsor > .content > .content-inner:first-child > div{
 	width:30%;
+}
+#sponsor > .content{
+	padding-bottom:3em;
 }
 .hvr-bounce-in {
   display: inline-block;
