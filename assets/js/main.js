@@ -26,10 +26,6 @@ $(function() {
 	});
 
 
-
-	
-
-
 	skel.breakpoints({
 		wide: '(max-width: 1680px)',
 		normal: '(max-width: 1280px)',
@@ -37,6 +33,10 @@ $(function() {
 		narrower: '(max-width: 840px)',
 		mobile: '(max-width: 736px)',
 		mobilep: '(max-width: 480px)'
+	});
+
+	$("#apply_button").click(function(){
+		window.location.href = "http://www.accupass.com/go/2015hackntu";
 	});
 
 	$(function() {
