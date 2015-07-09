@@ -10,6 +10,18 @@ $(function() {
     });
   });
 
+function hrefOnClick(hash, e){
+	e.preventDefault();
+
+	var target = hash,
+		$target = $(target);
+
+	$('html, body').stop().animate({
+		'scrollTop': $target.offset().top
+	}, 900, 'swing', function () {
+		window.location.hash = target;
+	});
+}
 (function($) {
 
 	$(function () {
@@ -24,7 +36,6 @@ $(function() {
 		console.log(num);
 	  	});
 	});
-
 
 
 	

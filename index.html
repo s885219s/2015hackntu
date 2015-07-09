@@ -23,17 +23,15 @@
 						<div id="nav" class="navbar-collapse collapse container">
 							<ul>
 								<li><a href="index.html">首頁</a></li>
-								<li><a href="#">活動內容</a></li>
-								<li><a href="#">活動介紹</a></li>
-								<li><a href="#">活動內容</a></li>
-								<li><a href="#">活動時程</a></li>
-								<li><a href="#">參加活動</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">合作夥伴</a></li>
+								<li><a onclick="hrefOnClick('#intro',event)">活動介紹</a></li>
+								<li><a onclick="hrefOnClick('#content',event)">活動內容</a></li>
+								<li><a onclick="hrefOnClick('#schedule',event)">活動時程</a></li>
+								<li><a onclick="hrefOnClick('#apply',event)">參加活動</a></li>
+								<li><a onclick="hrefOnClick('#faq',event)">FAQ</a></li>
+								<li><a onclick="hrefOnClick('#partner',event)">合作夥伴</a></li>
 
 							</ul>
 						</div>
-				
 				</div>
 			</div>
 		<!-- Header -->
@@ -56,7 +54,7 @@
 		<!-- Main -->
 			<div id="main">
 
-				<header class="major container 75%">
+				<header class="major container 75%" id="intro">
 					<h1>活動介紹</h1>
 					<!--
 					<p>Tellus erat mauris ipsum fermentum<br />
@@ -89,7 +87,7 @@
 					</section>
 				</div>
 
-				<header class="major container 75%">
+				<header class="major container 75%" id="content">
 					<h1>活動內容</h1>
 				</header>
 
@@ -125,7 +123,7 @@
 					</section>
 				</div>
 
-				<header class="major container 75%">
+				<header class="major container 75%" id="schedule">
 					<h1>活動時程</h1>
 					<!--
 					<p>Tellus erat mauris ipsum fermentum<br />
@@ -163,7 +161,7 @@
 					</section>
 				</div>
 
-				<header class="major container 75%">
+				<header class="major container 75%" id="apply">
 					<h1>參加活動</h1>
 				</header>
 				<div class = "major box alt container 75%" style="background:#ffffff">
@@ -199,32 +197,33 @@
 				</div>
 
 
-			
 
-				<header class="major container 75%">
+
+
+					<header class="major container 75%" id="faq">
 						<h1>FAQ</h1>
-				</header>
+					</header>
 
-				<div id="tabs">
-					  <ul>
-					    <li><a href="#tabs-1">報名相關</a></li>
-					    <li><a href="#tabs-2">黑客松相關</a></li>
-					  </ul>
-					  <div id="tabs-1">
-					    <p><b>Q:我已經送出活動通申請表單了，為何還沒收到確認信？</b>
-					    	<br>A:報名系統並無自動回信設計，團隊每週定期手動寄發確認信，故表單送出後若沒有馬上收到回音，請耐心等候幾天！<br>
-					    	<br><b>Q:審查是採隨到隨審（Rolling Admission）還是統一集中審核？</b>
-					    	<br>A:參加資格係按照報名時程分波統一審核，並於錄取名單公布當日統一寄出認證信件。<br>
-					    	<br><b>Q:我已經有隊友了，可以採團體報名嗎？</b>
-					    	<br>A:非常歡迎組隊參加（最多4 人為一組），但每位隊員都須個別報名、並於報名欄位中註明隊友名單，以便統計人數。</p>
-					  </div>
-					  <div id="tabs-2">
-					    <p><b>Q:我需要自己準備電腦嗎？</b><br>
-					    	A:現場提供各種硬體出借，但不包含筆記型電腦，請與會者務必自行攜帶。</p>
-					  </div>
-				</div>
+					<div id="tabs">
+						<ul>
+							<li><a href="#tabs-1">報名相關</a></li>
+							<li><a href="#tabs-2">黑客松相關</a></li>
+						</ul>
+						<div id="tabs-1">
+							<p><b>Q:我已經送出活動通申請表單了，為何還沒收到確認信？</b>
+								<br>A:報名系統並無自動回信設計，團隊每週定期手動寄發確認信，故表單送出後若沒有馬上收到回音，請耐心等候幾天！<br>
+								<br><b>Q:審查是採隨到隨審（Rolling Admission）還是統一集中審核？</b>
+								<br>A:參加資格係按照報名時程分波統一審核，並於錄取名單公布當日統一寄出認證信件。<br>
+								<br><b>Q:我已經有隊友了，可以採團體報名嗎？</b>
+								<br>A:非常歡迎組隊參加（最多4 人為一組），但每位隊員都須個別報名、並於報名欄位中註明隊友名單，以便統計人數。</p>
+						</div>
+						<div id="tabs-2">
+							<p><b>Q:我需要自己準備電腦嗎？</b><br>
+								A:現場提供各種硬體出借，但不包含筆記型電腦，請與會者務必自行攜帶。</p>
+						</div>
+					</div>
 
-			<header class="major container 75%">
+			<header class="major container 75%" id="partner">
 					<h1>合作夥伴</h1>
 			</header>
 

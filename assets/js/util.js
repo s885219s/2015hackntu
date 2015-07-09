@@ -4,6 +4,18 @@
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
 	 */
+	function hrefOnClick(hash, e){
+		e.preventDefault();
+
+		var target = hash,
+			$target = $(target);
+
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 900, 'swing', function () {
+			window.location.hash = target;
+		});
+	}
 	$.fn.navList = function() {
 
 		var	$this = $(this);
