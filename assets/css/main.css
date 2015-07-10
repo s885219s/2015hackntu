@@ -2815,7 +2815,7 @@ input[type="button"].small,
 	/* Feature */
 
 	.feature {
-		height: 18em;
+		height: 22em;
 	}
 
 	.feature .content {
@@ -2855,7 +2855,7 @@ input[type="button"].small,
 		background-image: url("images/bottom-1600.svg"), url("../../images/footer.png");
 		background-size: 1600px 230px, auto;
 		margin-top: -100px;
-		padding: calc(230px + 4em) 0 12em 0;
+		padding: calc(230px + 4em) 0 11em 0;
 		background-position: top center,top center;
 		width:100%;
 	}
@@ -3239,6 +3239,23 @@ input[type="button"].small,
 	-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 	-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 	transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+}
+#icon > ul >li{
+	display: inline-block;
+	margin: 1em 0.5em 0 0.5em;
+	border-radius: 0.5em;
+	padding-top: 0.85em;
+	border: solid 1px transparent;
+	-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+}
+#footer .copyright {
+	position: absolute;
+	color: #ffffff;
+	bottom: 10%;
+	left: 40%;
 }
 .dropotron {
 	background: rgba(255, 255, 255, 0.975);
@@ -4038,4 +4055,7 @@ div {
 	transform: scale(1.2);
 	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+#special{
+height:40em;
 }
