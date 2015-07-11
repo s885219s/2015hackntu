@@ -2603,7 +2603,7 @@ input[type="button"].small,
 #footer {
 	background-attachment: scroll;
 	background-image: url("images/bottom-3200.svg"), url("../../images/footer.png");
-	background-position: top center,top center;
+	background-position: top center,bottom center;
 	background-repeat: repeat-x;
 	background-size: 3200px 460px,contain;
 	color: rgba(255, 255, 255, 0.8);
@@ -2858,8 +2858,8 @@ input[type="button"].small,
 		background-image: url("images/bottom-1600.svg"), url("../../images/footer.png");
 		background-size: 1600px 230px, contain;
 		margin-top: -100px;
-		padding: calc(230px + 4em) 0 6em 0;
-		background-position: top center,top center;
+		padding: calc(230px + 4em) 0 10em 0;
+		background-position: top center,bottom center;
 		width:100%;
 	}
 
