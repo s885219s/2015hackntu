@@ -2514,7 +2514,7 @@ input[type="button"].small,
 	background-image: url("images/top-3200.svg"),  url("../../images/bg1.png");
 	background-position: bottom center,					top left,				center center;
 	background-repeat: repeat-x,						repeat,					no-repeat;
-	background-size: 3200px 460px,					auto,					cover;
+	background-size: 3200px 460px,					contain,					cover;
 	color: rgba(255, 255, 255, 0.8);
 	padding: 10em 0 20em 0;
 	position: relative;
@@ -2602,10 +2602,10 @@ input[type="button"].small,
 
 #footer {
 	background-attachment: scroll;
-	background-image: url("images/bottom-3200.svg");
-	background-position: top center;
+	background-image: url("images/bottom-3200.svg"), url("../../images/footer.png");
+	background-position: top center,top center;
 	background-repeat: repeat-x;
-	background-size: 3200px 460px;
+	background-size: 3200px 460px,contain;
 	color: rgba(255, 255, 255, 0.8);
 	/*
 			Since the SVG background occupies a lot of vertical space, we'll
@@ -2828,10 +2828,11 @@ input[type="button"].small,
 	#header {
 		background-attachment: scroll,							scroll,							scroll;
 		background-image: url("images/top-1600.svg"), url("../../images/bg1.png");
-		background-size: 1600px 230px,	auto;
+		background-size: 1600px 230px,	contain;
 		background-repeat: no-repeat;
 		background-position: bottom center,bottom center;
 		padding: 6em 0 5em 0;
+
 		width:100%;
 	}
 
@@ -2855,9 +2856,9 @@ input[type="button"].small,
 
 	#footer {
 		background-image: url("images/bottom-1600.svg"), url("../../images/footer.png");
-		background-size: 1600px 230px, auto;
+		background-size: 1600px 230px, contain;
 		margin-top: -100px;
-		padding: calc(230px + 4em) 0 11em 0;
+		padding: calc(230px + 4em) 0 6em 0;
 		background-position: top center,top center;
 		width:100%;
 	}
