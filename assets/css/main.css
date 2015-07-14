@@ -2769,6 +2769,12 @@ input[type="button"].small,
 	header.major p {
 		font-size: 1.25em;
 	}
+	.schedule_photo{
+		width: 80%;
+		height: auto;
+		background-color: #FFFFFF;
+		margin-bottom:10em;
+	}
 
 	/* Header */
 
