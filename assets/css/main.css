@@ -1814,7 +1814,7 @@ body.is-loading * {
 
 body, input, select, textarea {
 	color: #6e6e6e;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', "Lantinghei TC", Hiragino Kaku Gothic Pro, Heiti TC, "·L³n¥¿¶ÂÅé", "STHeiti Light", "Microsoft Yahei", "Microsoft JhengHei", Helvetica, sans-serif;
 	font-size: 16pt;
 	font-weight: 400;
 	line-height: 1.75em;
