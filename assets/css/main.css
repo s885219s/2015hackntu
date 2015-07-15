@@ -3333,14 +3333,14 @@ input[type="button"].small,
 	}
 	.feature .image2 {
 		float: none;
-		height: 28em;
+		height: 32.8em;
 		width: 100%;
 	}
 	#special{
 		height:56.6em;
 	}
 	#special2{
-		height:42.7em;
+		height:47.6em;
 	}
 
 	/* Main */
@@ -3379,11 +3379,11 @@ input[type="button"].small,
 }
 @media screen and (max-width: 397px) {
 	#special {
-		height: 58.1em;
+		height: 61.7em;
 	}
 
 	#special2 {
-		height: 45.2em;
+		height: 48.8em;
 	}
 }
 
