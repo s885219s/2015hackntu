@@ -3320,11 +3320,11 @@ input[type="button"].small,
 		margin-bottom: 1em;
 	}
 	#special,#special2{
-		margin-bottom:1em;
+		margin-bottom:2em;
 	}
 
 	.feature .content {
-		padding: 2em !important;
+		padding: 1em !important;
 	}
 	.feature .image {
 		float: none;
@@ -3336,12 +3336,7 @@ input[type="button"].small,
 		height: 32.8em;
 		width: 100%;
 	}
-	#special{
-		height:56.6em;
-	}
-	#special2{
-		height:47.6em;
-	}
+
 
 	/* Main */
 
@@ -3378,12 +3373,9 @@ input[type="button"].small,
 
 }
 @media screen and (max-width: 397px) {
-	#special {
-		height: 61.7em;
-	}
 
-	#special2 {
-		height: 48.8em;
+	.feature .content {
+		padding: 1em !important;
 	}
 }
 
