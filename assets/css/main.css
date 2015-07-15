@@ -2875,6 +2875,7 @@ input[type="button"].small,
 }
 #invitation h2,#sponsor h2,#support h2 {
 	margin-bottom: 2em;
+	margin-top:2em;
 }
 #invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
 	position: relative;
@@ -3106,7 +3107,7 @@ input[type="button"].small,
 	#footer:before {
 		height: calc(230px + 4em);
 	}
-	
+
 	/* Main */
 
 	#main {
