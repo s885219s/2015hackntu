@@ -3106,9 +3106,7 @@ input[type="button"].small,
 	#footer:before {
 		height: calc(230px + 4em);
 	}
-	#special,#special2{
-		height:28em;
-	}
+	
 	/* Main */
 
 	#main {
