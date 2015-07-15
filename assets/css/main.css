@@ -3050,6 +3050,13 @@ input[type="button"].small,
 	.feature {
 		height: 18em;
 	}
+	.feature.left.prize{
+		height: 22em;
+	}
+	.feature .content {
+		padding: 1em;
+		font-size:13px;
+	}
 	#tabs{
 		width: 80%;
 		margin-left: auto;
@@ -3084,6 +3091,7 @@ input[type="button"].small,
 		padding-left: 2em;
 		padding-right: 2em;
 	}
+
 
 }
 
@@ -3191,6 +3199,9 @@ input[type="button"].small,
 		height: auto;
 		background-color: #FFFFFF;
 		margin-bottom:5em;
+	}
+	.feature.left.prize{
+		height: 100%;
 	}
 
 	/* Header */
@@ -3308,9 +3319,12 @@ input[type="button"].small,
 	.feature {
 		margin-bottom: 1em;
 	}
+	#special,#special2{
+		margin-bottom:1em;
+	}
 
 	.feature .content {
-		padding: 2em 1em !important;
+		padding: 2em !important;
 	}
 	.feature .image {
 		float: none;
@@ -3326,7 +3340,7 @@ input[type="button"].small,
 		height:56.6em;
 	}
 	#special2{
-		height:43.7em;
+		height:42.7em;
 	}
 
 	/* Main */
@@ -3372,6 +3386,7 @@ input[type="button"].small,
 		height: 45.2em;
 	}
 }
+
 /*nav*/
 #nav {
 	position: absolute;
