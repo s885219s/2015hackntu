@@ -2792,7 +2792,36 @@ input[type="button"].small,
 #main footer.major {
 	background: #ffffff;
 }
-
+#tabs{
+	width: 58em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:4em;
+}
+#invitation h2,#sponsor h2,#support h2 {
+	margin-bottom: 2em;
+}
+#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
+	position: relative;
+	display: inline-block;
+	margin: 1em 5%;
+	width: 23%;
+}
+#invitation > .content > .content-inner div.description {
+	margin-top: 0.5em;
+	/* position: absolute; */
+	/* bottom: 0; */
+	/* left: 0; */
+	/* right: 0; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+}
+#sponsor > .content > .content-inner:first-child > div{
+	width:30%;
+}
+#sponsor > .content{
+	padding-bottom:3em;
+}
 /* Wide */
 
 @media screen and (max-width: 1680px) {
@@ -2943,11 +2972,14 @@ input[type="button"].small,
 		background-color: #FFFFFF;
 		margin-bottom:10em;
 	}
-	.box.alt.res,.box.alt.logo{
+	.box.alt.res{
 		padding:0 2em 2em 2em;
 		border: solid 1px rgba(224, 224, 224, 0.75);
 	}
-
+	.box.alt.logo{
+		padding:0 0 2em 0;
+		border: solid 1px rgba(224, 224, 224, 0.75);
+	}
 	/* Header */
 
 	#header {
@@ -2996,7 +3028,9 @@ input[type="button"].small,
 	#footer:before {
 		height: calc(230px + 4em);
 	}
-
+	#special,#special2{
+		height:28em;
+	}
 	/* Main */
 
 	#main {
@@ -3019,9 +3053,28 @@ input[type="button"].small,
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
+	.feature {
+		height: 18em;
+	}
+	#tabs{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:4em;
+	}
 }
-
+@media screen and (max-width: 991px){
+	#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
+	position: relative;
+	display: inline-block;
+	margin: 1em 5%;
+	width: 33%;
+	}
+	#sponsor > .content > .content-inner:first-child > div{
+	width:50%;
+	margin-bottom: 3em;
+	}
+}
 /* Narrower */
 
 @media screen and (max-width: 840px) {
@@ -3187,7 +3240,16 @@ input[type="button"].small,
 	#footer form {
 		padding-bottom: 0;
 	}
-
+	#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
+		position: relative;
+		display: inline-block;
+		margin: 1em 5%;
+		width: 33%;
+	}
+	#sponsor > .content > .content-inner:first-child > div{
+		width:50%;
+		margin-bottom: 3em;
+	}
 	/* Main */
 
 	#main {
@@ -4129,13 +4191,6 @@ input[type="button"].small,
 }
 
 
-#tabs{
-	width: 58em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:4em;
-}
-
 .change_background{
 	background-color: rgba(250, 190, 1, 0.8 );
 }
@@ -4145,7 +4200,7 @@ div#sub_main {}
 div#sub_main {}
 .content {
 	margin: 0 auto;
-	padding: 2em;
+	padding: 0em;
 	text-align: center;
 }
 #but {
@@ -4174,30 +4229,7 @@ img{
 div {
 	display: block;
 }
-#invitation h2,#sponsor h2,#support h2 {
-	margin-bottom: 2em;
-}
-#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
-	position: relative;
-	display: inline-block;
-	margin: 1em 5%;
-	width: 23%;
-}
-#invitation > .content > .content-inner div.description {
-	margin-top: 0.5em;
-	/* position: absolute; */
-	/* bottom: 0; */
-	/* left: 0; */
-	/* right: 0; */
-	/* margin-left: auto; */
-	/* margin-right: auto; */
-}
-#sponsor > .content > .content-inner:first-child > div{
-	width:30%;
-}
-#sponsor > .content{
-	padding-bottom:3em;
-}
+
 .hvr-bounce-in {
 	display: inline-block;
 	vertical-align: middle;
