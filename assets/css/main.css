@@ -3157,6 +3157,22 @@ input[type="button"].small,
 	.feature .content {
 		padding: 2em 1em !important;
 	}
+	.feature .image {
+		float: none;
+		height: 18em;
+		width: 100%;
+	}
+	.feature .image2 {
+		float: none;
+		height: 30em;
+		width: 100%;
+	}
+	#special{
+		height:58.6em;
+	}
+	#special2{
+		height:45.7em;
+	}
 
 	/* Main */
 
