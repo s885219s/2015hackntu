@@ -2897,6 +2897,9 @@ input[type="button"].small,
 #sponsor > .content{
 	padding-bottom:3em;
 }
+#navPanel{
+	display: none;
+}
 /* Wide */
 
 @media screen and (max-width: 1680px) {
@@ -3175,10 +3178,78 @@ input[type="button"].small,
 		padding-left: 2em;
 		padding-right: 2em;
 	}
-
-
 }
+
+/* Mobile */
 @media screen and (max-width: 736px) {
+
+	/* Basic */
+
+	h2 {
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	/* Section/Article */
+
+	header p {
+		font-size: 0.8em;
+	}
+
+	header.major {
+		margin-bottom: 2em;
+		padding-top:2em;
+	}
+
+	header.major br {
+		display: none;
+	}
+
+	header.major p {
+		font-size: 0.8em;
+	}
+
+	footer.major {
+		margin-top: 2em;
+	}
+
+	footer.major br {
+		display: none;
+	}
+
+	/* List */
+
+	ul.actions li {
+		padding: 0 0 0 15px;
+	}
+
+	ul.actions.vertical li {
+		padding: 15px 0 0 0;
+	}
+
+	body.navPanel-visible #page-wrapper {
+		-moz-transform: translateY(50vh);
+		-webkit-transform: translateY(50vh);
+		-ms-transform: translateY(50vh);
+		transform: translateY(50vh);
+	}
+
+	body.navPanel-visible #navButton {
+		-moz-transform: translateY(50vh);
+		-webkit-transform: translateY(50vh);
+		-ms-transform: translateY(50vh);
+		transform: translateY(50vh);
+	}
+
+	body.navPanel-visible #navPanel {
+		-moz-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
 	#navbar-main{
 		display:none;
 	}
@@ -3319,77 +3390,6 @@ input[type="button"].small,
 
 	#navPanel .depth-0 {
 		color: #fff;
-	}
-}
-/* Mobile */
-@media screen and (max-width: 736px) {
-
-	/* Basic */
-
-	h2 {
-		font-size: 1em;
-	}
-
-	h3 {
-		font-size: 1em;
-	}
-
-	/* Section/Article */
-
-	header p {
-		font-size: 0.8em;
-	}
-
-	header.major {
-		margin-bottom: 2em;
-		padding-top:2em;
-	}
-
-	header.major br {
-		display: none;
-	}
-
-	header.major p {
-		font-size: 0.8em;
-	}
-
-	footer.major {
-		margin-top: 2em;
-	}
-
-	footer.major br {
-		display: none;
-	}
-
-	/* List */
-
-	ul.actions li {
-		padding: 0 0 0 15px;
-	}
-
-	ul.actions.vertical li {
-		padding: 15px 0 0 0;
-	}
-
-	body.navPanel-visible #page-wrapper {
-		-moz-transform: translateY(50vh);
-		-webkit-transform: translateY(50vh);
-		-ms-transform: translateY(50vh);
-		transform: translateY(50vh);
-	}
-
-	body.navPanel-visible #navButton {
-		-moz-transform: translateY(50vh);
-		-webkit-transform: translateY(50vh);
-		-ms-transform: translateY(50vh);
-		transform: translateY(50vh);
-	}
-
-	body.navPanel-visible #navPanel {
-		-moz-transform: translateY(0);
-		-webkit-transform: translateY(0);
-		-ms-transform: translateY(0);
-		transform: translateY(0);
 	}
 	/* Box */
 
