@@ -70,7 +70,7 @@ body {
 				 }
 
 .container.\37 5\25 {
-					width: 38.25em;
+					width: 58.25em;
 				}
 
 .container.\35 0\25 {
@@ -94,7 +94,7 @@ body {
 					 }
 
 	.container.\37 5\25 {
-						width: 38.25em;
+						width: 45.25em;
 					}
 
 	.container.\35 0\25 {
@@ -122,7 +122,7 @@ body {
 
 }
 	.container.\37 5\25 {
-						width: 36em;
+						width: 42em;
 					}
 
 	.container.\35 0\25 {
@@ -1920,7 +1920,7 @@ header.major {
 	border-style: solid;
 	border-top-width: 1px;
 	margin-bottom: 6em;
-	padding: 4em 0;
+	padding: 3em 0;
 	position: relative;
 }
 
@@ -2418,7 +2418,7 @@ input[type="button"].small,
 
 .feature {
 	position: relative;
-	height: 20em;
+	height: 22em;
 }
 
 .feature:after {
@@ -2448,6 +2448,17 @@ input[type="button"].small,
 #special,#special2{
 	height:36em;
 }
+.schedule_photo{
+	width: 60%;
+	height: auto;
+	background-color: #FFFFFF;
+	margin-bottom:10em;
+}
+.box.alt.res,.box.alt.logo{
+	padding:0 2em 2em 2em;
+	background-color: #ffffff;
+	border: solid 1px rgba(224, 224, 224, 0.75);
+}
 .feature .image img {
 	display: block;
 	min-height: 100%;
@@ -2465,7 +2476,7 @@ input[type="button"].small,
 
 .feature .content {
 	display: inline-block;
-	padding: 3.5em;
+	padding: 1.5em;
 	vertical-align: middle;
 	width: 48%;
 }
@@ -2526,10 +2537,11 @@ input[type="button"].small,
 #header {
 	background-attachment: scroll,							scroll,					fixed;
 	background-image: url("images/top-3200.svg"),  url("../../images/bg1.png");
-	background-position: bottom center,					top center,				center center;
-	background-repeat: repeat-x,						repeat,					no-repeat;
-	background-size: 3200px 460px,					contain,					cover;
+	background-position: bottom center,	top	center;
+	background-repeat: repeat-x,no-repeat;
+	background-size: 3200px 460px,cover;
 	color: rgba(255, 255, 255, 0.8);
+	margin:0 auto;
 	padding: 10em 0 0 0;
 	position: relative;
 	text-align: center;
@@ -2620,7 +2632,7 @@ input[type="button"].small,
 	background-image: url("images/bottom-3200.svg"), url("../../images/footer.png");
 	background-position: top center,bottom center;
 	background-repeat: repeat-x;
-	background-size: 3200px 460px,contain;
+	background-size: 3200px 460px,cover;
 	color: rgba(255, 255, 255, 0.8);
 	/*
 			Since the SVG background occupies a lot of vertical space, we'll
@@ -2629,7 +2641,7 @@ input[type="button"].small,
 		*/
 
 	margin-top: -260px;
-	padding: calc(400px + 6em) 0 10em 0;
+	padding: calc(460px + 6em) 0 10em 0;
 	position: relative;
 	text-align: center;
 }
@@ -2721,7 +2733,42 @@ input[type="button"].small,
 #footer .copyright li a:hover, #footer .copyright li span:hover {
 	color: #ffffff;
 }
+#footer-nav > ul{
+	line-height: 23px;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	height: 29px;
+}
 
+#footer-nav > ul > li {
+	display: inline-block;
+	margin: -9px 0.5em 0 0.5em;
+	border-radius: 0.5em;
+	padding: 0.85em;
+	border: solid 1px transparent;
+	-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+}
+#icon > ul >li{
+	display: inline-block;
+	margin: 1em 0.5em 0 0.5em;
+	border-radius: 0.5em;
+	padding-top: 0.85em;
+	border: solid 1px transparent;
+	-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+}
+#footer .copyright {
+	position: absolute;
+	color: #ffffff;
+	bottom: 8%;
+	left: 43%;
+}
 /* Main */
 
 #main {
@@ -2777,9 +2824,18 @@ input[type="button"].small,
 	}
 
 	/* Header */
-
 	#header {
-		padding: 8em 0 16em 0;
+		background-attachment: scroll,							scroll;
+		background-image: url("images/top-3200.svg"),  url("../../images/bg1.png");
+		background-position: bottom center,top center;
+		background-repeat: repeat-x,no-repeat;
+		background-size: 3200px 460px,cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 0 0;
+		position: relative;
+		text-align: center;
+		width:100%;
+		height:720px;
 	}
 
 	#header h1 {
@@ -2790,7 +2846,45 @@ input[type="button"].small,
 		font-size: 1.25em;
 		line-height: 1.65em;
 	}
-
+	#footer {
+		background-attachment: scroll;
+		background-image: url("images/bottom-3200.svg"), url("../../images/footer.png");
+		background-position: top center, bottom center;
+		background-repeat: repeat-x;
+		background-size: 3200px 460px, cover;
+		color: rgba(255, 255, 255, 0.8);
+		margin-top: -260px;
+		padding: calc(410px + 6em) 0 10em 0;
+		position: relative;
+		text-align: center;
+	}
+	#footer:before {
+		background: rgba(224, 224, 224, 0.75);
+		content: '';
+		height: calc(410px + 6em);
+		left: 50%;
+		position: absolute;
+		top: 0;
+		width: 1px;
+		z-index: 0;
+	}
+	#footer-nav > ul > li {
+		display: inline-block;
+		margin: -9px 0.5em 0 0.5em;
+		border-radius: 0.5em;
+		padding: 0.5em;
+		border: solid 1px transparent;
+		-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	}
+	#footer .copyright {
+		position: absolute;
+		color: #ffffff;
+		bottom: 8%;
+		left: 40.7%;
+	}
 }
 
 /* Normal */
@@ -2859,7 +2953,7 @@ input[type="button"].small,
 	#header {
 		background-attachment: scroll,							scroll,							scroll;
 		background-image: url("images/top-1600.svg"), url("../../images/bg1.png");
-		background-size: 1600px 230px,	contain;
+		background-size: 1600px 230px,	cover;
 		background-repeat: no-repeat;
 		background-position: bottom center,top center;
 		padding: 6em 0 0 0;
@@ -2887,13 +2981,18 @@ input[type="button"].small,
 
 	#footer {
 		background-image: url("images/bottom-1600.svg"), url("../../images/footer.png");
-		background-size: 1600px 230px, contain;
+		background-size: 1600px 230px, cover;
 		margin-top: -100px;
 		padding: calc(230px + 4em) 0 10em 0;
 		background-position: top center,bottom center;
 		width:100%;
 	}
-
+	#footer .copyright {
+		position: absolute;
+		color: #ffffff;
+		bottom: 8%;
+		left: 40%;
+	}
 	#footer:before {
 		height: calc(230px + 4em);
 	}
@@ -3018,19 +3117,16 @@ input[type="button"].small,
 
 	.feature .image {
 		float: none;
-		height: 21em;
+		height: 29em;
 		width: 100%;
 	}
 	.feature .image2{
 		float: none;
-		height: 39em;
+		height: 44em;
 		width: 100%;
 	}
-	#special{
-		height:64.8em;
-	}
-	#special2{
-		height:54.7em;
+	#special,#special2{
+		height:auto;
 	}
 	.feature .content {
 		border: solid 1px rgba(224, 224, 224, 0.75);
@@ -3079,7 +3175,7 @@ input[type="button"].small,
 
 	#footer {
 		background-image: url("images/bottom-1280.svg"), url("../../images/footer.png");
-		background-size: 1280px 184px,contain;
+		background-size: 1280px 184px,cover;
 		margin-top: -75px;
 		padding: calc(178px + 2em) 0 0 0;
 	}
@@ -3291,42 +3387,7 @@ input[type="button"].small,
 #nav > ul > li > ul {
 	display: none;
 }
-#footer-nav > ul{
-	line-height: 23px;
-	position: relative;
-	display: inline-block;
-	margin: 0;
-	height: 29px;
-}
 
-#footer-nav > ul > li {
-	display: inline-block;
-	margin: -9px 0.5em 0 0.5em;
-	border-radius: 0.5em;
-	padding: 0.85em;
-	border: solid 1px transparent;
-	-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-	-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-	-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-	transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-}
-#icon > ul >li{
-	display: inline-block;
-	margin: 1em 0.5em 0 0.5em;
-	border-radius: 0.5em;
-	padding-top: 0.85em;
-	border: solid 1px transparent;
-	-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-	-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-	-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-	transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-}
-#footer .copyright {
-	position: absolute;
-	color: #ffffff;
-	bottom: 7%;
-	left: 40%;
-}
 .dropotron {
 	background: rgba(255, 255, 255, 0.975);
 	padding: 1em 1.25em 1em 1.25em;
@@ -3379,8 +3440,9 @@ input[type="button"].small,
 }
 @media screen and (max-width: 736px) {
 	#footer-nav > ul > li {
+		font-size: 9px;
 		display: inline-block;
-		margin: -9px 0.5em 0 0.5em;
+		margin: -9px 0em 0 0em;
 		border-radius: 0.5em;
 		padding: 0.85em;
 		border: solid 1px transparent;
@@ -3408,7 +3470,7 @@ input[type="button"].small,
 	#footer .copyright {
 		position: absolute;
 		color: #ffffff;
-		bottom: 7%;
+		bottom: 8%;
 		left: 30%;
 	}
 }
@@ -4082,7 +4144,6 @@ div#sub_main {}
 
 div#sub_main {}
 .content {
-	width: 960px;
 	margin: 0 auto;
 	padding: 2em;
 	text-align: center;
