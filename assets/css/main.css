@@ -2967,7 +2967,7 @@ input[type="button"].small,
 		padding: 1.6em;
 	}
 	.schedule_photo{
-		width: 80%;
+		width: 70%;
 		height: auto;
 		background-color: #FFFFFF;
 		margin-bottom:10em;
@@ -3322,7 +3322,7 @@ input[type="button"].small,
 	}
 	.feature .image2 {
 		float: none;
-		height: 30em;
+		height: 28em;
 		width: 100%;
 	}
 	#special{
@@ -3536,7 +3536,22 @@ input[type="button"].small,
 		left: 30%;
 	}
 }
-
+@media screen and (max-width: 640px) {
+	#footer .copyright {
+		position: absolute;
+		color: #ffffff;
+		bottom: 8%;
+		left: 29%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#footer .copyright {
+		position: absolute;
+		color: #ffffff;
+		bottom: 8%;
+		left: 21%;
+	}
+}
 /*wrapper*/
 .wrapper {
 	padding: 6em 0 4em 0 ;
