@@ -3377,6 +3377,9 @@ input[type="button"].small,
 	.feature .content {
 		padding: 1em !important;
 	}
+	.feature{
+		margin-bottom: 2em;
+	}
 }
 
 /*nav*/
