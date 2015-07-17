@@ -21,6 +21,12 @@ function hrefOnClick(hash, e){
 	}, 900, 'swing', function () {
 		window.location.hash = target;
 	});
+
+	var	$this = $(this);
+	$a = $this.find('a'), b = [];
+	onclick=$this.attr('onlick');
+	console.log(onclick);
+
 }
 (function($) {
 
