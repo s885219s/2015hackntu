@@ -401,7 +401,7 @@
         <header class="major last">
 			<div id="footer-nav" >
 				<ul>
-					<li><a href="index.html">首頁</a></li>
+					<li><a onclick="hrefOnClick('#header',event)">首頁</a></li>
 					<li><a onclick="hrefOnClick('#intro',event)">活動介紹</a></li>
 					<li><a onclick="hrefOnClick('#content',event)">活動內容</a></li>
 					<li><a onclick="hrefOnClick('#schedule',event)">活動時程</a></li>
@@ -474,5 +474,27 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/jquery-ui.js"></script>
 <script src="assets/js/bootstrap.js"></script>
+<div id="navButton">
+	<a href="#navPanel" class="toggle"></a>
+</div>
+<div id="navPanel">
+	<nav>
+		<a class="link depth-0" onclick="hrefOnClick('#header',event)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<span class="indent-0"></span>首頁</a>
+		<a class="link depth-0" onclick="hrefOnClick('#intro',event)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<span class="indent-0"></span>活動介紹</a>
+		<a class="link depth-0" onclick="hrefOnClick('#content',event)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<span class="indent-0"></span>活動內容</a>
+		<a class="link depth-0" onclick="hrefOnClick('#schedule',event)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<span class="indent-0"></span>活動時程</a>
+		<a class="link depth-0" onclick="hrefOnClick('#apply',event)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<span class="indent-0"></span>參加活動</a>
+		<a class="link depth-0" onclick="hrefOnClick('#faq',event)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<span class="indent-0"></span>FAQ</a>
+		<a class="link depth-0" onclick="hrefOnClick('#partner',event)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<span class="indent-0"></span>合作夥伴</a>
+	</nav>
+</div>
+
 </body>
 </html>
