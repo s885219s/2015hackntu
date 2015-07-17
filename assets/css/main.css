@@ -148,7 +148,7 @@ body {
 					 }
 
 	.container.\37 5\25 {
-						width: 71.25%;
+						width: 75%;
 					}
 
 	.container.\35 0\25 {
@@ -174,7 +174,7 @@ body {
 					 }
 
 	.container.\37 5\25 {
-						width: 71.25%;
+						width: 90%;
 					}
 
 	.container.\35 0\25 {
@@ -186,7 +186,7 @@ body {
 					}
 
 	.container {
-		width: 95% !important;
+		width: 95%
 	}
 
 }
@@ -200,7 +200,7 @@ body {
 					 }
 
 	.container.\37 5\25 {
-						width: 67.5%;
+						width: 90%;
 					}
 
 	.container.\35 0\25 {
@@ -212,7 +212,7 @@ body {
 					}
 
 	.container {
-		width: 90% !important;
+		width: 90%
 	}
 
 }
@@ -226,7 +226,7 @@ body {
 					 }
 
 	.container.\37 5\25 {
-						width: 75%;
+						width: 95%;
 					}
 
 	.container.\35 0\25 {
@@ -238,7 +238,7 @@ body {
 					}
 
 	.container {
-		width: 100% !important;
+		width: 100% ;
 	}
 
 }
@@ -2100,7 +2100,6 @@ textarea {
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-ms-transition: opacity 0.25s ease-in-out;
 	transition: opacity 0.25s ease-in-out;
-	background-image: url("images/registration.png");
 	content: '';
 	display: block;
 	height: 100%;
@@ -3150,7 +3149,7 @@ input[type="button"].small,
 		margin-bottom:4em;
 	}
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 980px){
 	#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
 	position: relative;
 	display: inline-block;
@@ -3358,7 +3357,7 @@ input[type="button"].small,
 	#navPanel .link.depth-0 {
 		color: #fff;
 		/*font-weight: 600;*/
-		height:2.7em;
+		height:3em;
 		text-align: center;
 	}
 
@@ -3416,7 +3415,7 @@ input[type="button"].small,
 
 	.feature .image {
 		float: none;
-		height: 29em;
+		height: 25em;
 		width: 100%;
 	}
 	.feature .image2{
@@ -3541,6 +3540,12 @@ input[type="button"].small,
 
 	ul.actions li:first-child {
 		padding: 0;
+	}
+	#tabs{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:4em;
 	}
 
 	/* Button */
@@ -3694,12 +3699,12 @@ input[type="button"].small,
 		transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 	}
 	#footer-nav{
-		width:70%;
+		width:90%;
 		text-align: center;
 		margin:auto;
 	}
 	#footer-nav > ul{
-		line-height: 18px;
+		line-height: 28px;
 		position: relative;
 		display: inline-block;
 		margin: 0;
@@ -3714,6 +3719,11 @@ input[type="button"].small,
 		color: #ffffff;
 		bottom: 8%;
 		left: 30%;
+	}
+	header.major.last {
+		border-bottom: 0;
+		margin-bottom: 5em;
+		padding-bottom: 0;
 	}
 }
 @media screen and (max-width: 640px) {
@@ -3730,6 +3740,63 @@ input[type="button"].small,
 		color: #ffffff;
 		bottom: 8%;
 		left: 21%;
+	}
+	#footer-nav > ul > li {
+		font-size: 9px;
+		display: inline-block;
+		margin: -9px 0em 0 0em;
+		border-radius: 0.5em;
+		padding: 0.85em;
+		border: solid 1px transparent;
+		-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	}
+	#footer-nav {
+		width: 100%;
+		text-align: center;
+		margin: auto;
+	}
+
+	#footer-nav > ul {
+		line-height: 28px;
+		position: relative;
+		display: inline-block;
+		margin: 0;
+		height: 29px;
+	}
+	header.major.last {
+		border-bottom: 0;
+		margin-bottom: 5em;
+		padding-bottom: 0;
+	}
+}
+@media screen and (max-width: 373px) {
+	#footer-nav > ul > li {
+		font-size: 9px;
+		display: inline-block;
+		margin: -9px 0em 0 0em;
+		border-radius: 0.5em;
+		padding: 0.5em;
+		border: solid 1px transparent;
+		-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+	}
+	#footer-nav > ul {
+		line-height: 21px;
+		position: relative;
+		display: inline-block;
+		margin: 0;
+		height: 22px;
+	}
+	#footer .copyright {
+		position: absolute;
+		color: #ffffff;
+		bottom: 8%;
+		left: 14%;
 	}
 }
 /*wrapper*/

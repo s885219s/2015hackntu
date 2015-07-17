@@ -22,10 +22,6 @@ function hrefOnClick(hash, e){
 		window.location.hash = target;
 	});
 
-	var	$this = $(this);
-	$a = $this.find('a'), b = [];
-	onclick=$this.attr('onlick');
-	console.log(onclick);
 
 }
 (function($) {
