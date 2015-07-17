@@ -186,7 +186,7 @@ body {
 					}
 
 	.container {
-		width: 95% !important;
+		width: 95%
 	}
 
 }
@@ -212,7 +212,7 @@ body {
 					}
 
 	.container {
-		width: 90% !important;
+		width: 90%
 	}
 
 }
@@ -238,7 +238,7 @@ body {
 					}
 
 	.container {
-		width: 100% !important;
+		width: 100% ;
 	}
 
 }
@@ -2100,7 +2100,6 @@ textarea {
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-ms-transition: opacity 0.25s ease-in-out;
 	transition: opacity 0.25s ease-in-out;
-	background-image: url("images/registration.png");
 	content: '';
 	display: block;
 	height: 100%;
@@ -3150,7 +3149,7 @@ input[type="button"].small,
 		margin-bottom:4em;
 	}
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 980px){
 	#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
 	position: relative;
 	display: inline-block;
@@ -3358,7 +3357,7 @@ input[type="button"].small,
 	#navPanel .link.depth-0 {
 		color: #fff;
 		/*font-weight: 600;*/
-		height:2.7em;
+		height:3em;
 		text-align: center;
 	}
 
@@ -3416,7 +3415,7 @@ input[type="button"].small,
 
 	.feature .image {
 		float: none;
-		height: 29em;
+		height: 25em;
 		width: 100%;
 	}
 	.feature .image2{
