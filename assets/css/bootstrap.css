@@ -273,7 +273,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
+<<<<<<< HEAD
   font-family: "Helvetica Neue", Helvetica,'Source Sans Pro', "Lantinghei TC", Hiragino Kaku Gothic Pro, Heiti TC, "·L³n¥¿¶ÂÅé", "STHeiti Light", "Microsoft Yahei", "Microsoft JhengHei", sans-serif;
+=======
+  font-family: "Helvetica Neue", Helvetica, Arial,'Source Sans Pro', "Lantinghei TC", Hiragino Kaku Gothic Pro, Heiti TC, "ï¿½Lï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", "STHeiti Light", "Microsoft Yahei", "Microsoft JhengHei", Helvetica, sans-serif;
+>>>>>>> 339d1c14b8258e2b7803ea0859bff97bb326fcb1
   font-size: 14px;
   line-height: 1.428571429;
   color: #333;
@@ -737,17 +741,29 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 736px) {
+@media (min-width: 737px) {
   .container {
-    width: 750px;
+    width: 700px;
+  }
+  .feature{
+    height:16em;
+  }
+  .feature .content{
+    padding:0 1em 0 1em;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 980px) {
   .container {
-    width: 970px;
+    width: 900px;
+  }
+  .feature{
+    height:22em;
+  }
+  .feature .content{
+    padding:1.5em;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .container {
     width: 960px;
   }
