@@ -21,9 +21,23 @@ function hrefOnClick(hash, e){
 	}, 900, 'swing', function () {
 		window.location.hash = target;
 	});
-
-
 }
+function btnApplyOnClick(e){
+	$('#but').css('width', '0');
+	$('#btn_taiwan').css('width', '10em');
+	$('#btn_taiwan').css('padding-right', '1em');
+	$('#btn_foreign').css('width', '10em');
+	$('#btn_foreign').css('padding-left', '1em');
+};
+function butApplyOnClick(e){
+	$('#button_apply').css('display', 'none');
+	$('#button_taiwan').css('display', 'inline-block');
+	$('#button_foreign').css('display', 'inline-block');
+	$('#footer_button_apply').css('display', 'none');
+	$('#footer_button_taiwan').css('display', 'inline-block');
+	$('#footer_button_foreign').css('display', 'inline-block');
+};
+
 (function($) {
 
 	$(function () {
@@ -38,9 +52,6 @@ function hrefOnClick(hash, e){
 			console.log(num);
 		});
 	});
-
-
-
 
 
 	skel.breakpoints({

@@ -29,6 +29,14 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<link rel="stylesheet" href="assets/css/jquery-ui.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet" />
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-45833134-6', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
 <body>
 <!--nav-bar-->
@@ -56,8 +64,13 @@
 
 
 	<div id="apply_button">
-		<img id="but" class="hvr-bounce-in" src="images/apply_button.png">
+		<img id="but" class="hvr-bounce-in" src="images/apply_button.png" onclick="btnApplyOnClick(event)">
+		<a href="https://www.accupass.com/go/2015hackntu" target="_blank">
+			<img id="btn_taiwan" class="hvr-bounce-in" src="images/taiwan-01.svg"></a>
+		<a href="http://www.accupass.com/event/register/1505141917107287993140" target="_blank">
+			<img id="btn_foreign" class="hvr-bounce-in" src="images/foreign-01.svg"></a>
 	</div>
+
 
 
 	<!-- <span class="logo icon fa-paper-plane-o"></span> -->
@@ -213,7 +226,13 @@
 			<br>黑客松進行以至多4人為一組進行，如為單獨報名參加，我們也會在黑客松開始前、 8/21當天安排媒合活動，協助參加者事賽前、活動當天現場組隊。
 		</p>
 		<ul class="actions" style="padding-top:30px;">
-			<li><a href="#" class="button">apply now</a></li>
+			<li><a class="button" id="button_apply" onclick="butApplyOnClick(event)">apply now</a></li>
+			<li class="taiwan">
+				<a href="https://www.accupass.com/go/2015hackntu" id="button_taiwan">Taiwan</a>
+			</li>
+			<li class="foreign">
+				<a href="http://www.accupass.com/event/register/1505141917107287993140" id="button_foreign">Foreign</a>
+			</li>
 		</ul>
 	</div>
 
@@ -393,7 +412,15 @@
 		</section>
 	</div>
 	<footer class="major container 75%" id="apply">
-		<a href="#" class="button">apply now</a>
+		<ul class="actions">
+			<li><a class="button" id="footer_button_apply" onclick="butApplyOnClick(event)">apply now</a></li>
+			<li class="taiwan">
+				<a href="https://www.accupass.com/go/2015hackntu" id="footer_button_taiwan">Taiwan</a>
+			</li>
+			<li class="foreign">
+				<a href="http://www.accupass.com/event/register/1505141917107287993140" id="footer_button_foreign">Foreign</a>
+			</li>
+		</ul>
 	</footer>
 </div>
 <!-- Footer -->
@@ -435,6 +462,5 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/jquery-ui.js"></script>
 <script src="assets/js/bootstrap.js"></script>
-
 </body>
 </html>
