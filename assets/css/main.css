@@ -2372,7 +2372,7 @@ input[type="button"],
 	text-transform: uppercase;
 }
 ul.actions li.taiwan,ul.actions li.foreign{
-	padding:0;
+	padding:1em 0 0 0;
 }
 
 input[type="submit"]:hover,
