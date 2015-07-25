@@ -2712,7 +2712,7 @@ input[type="button"].small,
 
 #nav > ul > li {
 	display: inline-block;
-	margin: -9px 0.5em 0 0.5em;
+	margin: -9px 0em 0 0em;
 	border-radius: 0.5em;
 	padding: 0.85em;
 	border: solid 1px transparent;
