@@ -1,0 +1,470 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!--
+	Directive by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>2015HackNTU</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="author" content="Arick Chen">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<meta name="keywords" content="HackNTU,2015HackNTU,NTU,Hackathon,臺大黑客松,黑客松,NTU hackathon,駭客松,台大黑客松">
+	<meta name="description" content="2015HackNTU是一場以城市為題、為期三天兩夜的 Hackathon ，我們邀請國際好手、提供最舒適便利的環境、並安排豐富有趣的活動，歡迎全世界的 Hacker 一起到國立臺灣大學綜合體育館共襄盛舉！">
+	<meta name="og:title" content="2015HackNTU">
+	<meta name="og:description" content="2015HackNTU是一場以城市為題、為期三天兩夜的 Hackathon ，我們邀請國際好手、提供最舒適便利的環境、並安排豐富有趣的活動，歡迎全世界的 Hacker 一起到國立臺灣大學綜合體育館共襄盛舉！">
+	<meta name="og:type" content="website">
+	<meta name="og:image" content="images/bg1.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<link rel="stylesheet" href="assets/css/jquery-ui.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet" />
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-45833134-6', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body>
+<!--nav-bar-->
+<div id="navbar-main"  >
+	<div id="sub_main" class="navbar navbar-fixed-top" >
+		<div id="nav" class="navbar-collapse collapse container">
+			<ul>
+				<li><a onclick="hrefOnClick('#header',event)">Home</a></li>
+				<li><a onclick="hrefOnClick('#intro',event)">About</a></li>
+				<li><a onclick="hrefOnClick('#content',event)">Outline</a></li>
+				<li><a onclick="hrefOnClick('#schedule',event)">Schedule</a></li>
+				<li><a onclick="hrefOnClick('#apply',event)">Entry</a></li>
+				<li><a onclick="hrefOnClick('#faq',event)">FAQ</a></li>
+				<li><a onclick="hrefOnClick('#partner',event)">Partner</a></li>
+				<li><a>中文</a></li>
+				<li class="icon"><a href="https://www.facebook.com/hackNTU" class="fa fa-facebook-square fa-lg"><span>facebook</span></a></li>
+				<li class="icon"><a href="mailto:hackntu@gmail.com" class="fa fa-envelope fa-lg"><span>Contact us</span></a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Header -->
+<div id="header">
+
+
+
+	<div id="apply_button">
+		<img id="but" class="hvr-bounce-in" src="images/apply_button.png" onclick="btnApplyOnClick(event)">
+		<a href="http://goo.gl/ROSWlQ" target="_blank">
+			<img id="btn_taiwan" class="hvr-bounce-in" src="images/taiwan-01.svg"></a>
+		<a href="http://www.accupass.com/event/register/1505141917107287993140" target="_blank">
+			<img id="btn_foreign" class="hvr-bounce-in" src="images/foreign-01.svg"></a>
+	</div>
+
+
+
+	<!-- <span class="logo icon fa-paper-plane-o"></span> -->
+	<!-- <h1>Hi. This is Directive.</h1>
+    <p>A responsive HTML5 + CSS3 site template designed by <a href="http://html5up.net">HTML5 UP</a>
+    <br />
+    and released for free under the <a href="http://html5up.net/license">Creative Commons license</a>.</p> -->
+</div>
+
+<!-- Main -->
+<div id="main">
+
+	<header class="major container 75%" id="intro">
+		<h1>About</h1>
+
+	</header>
+
+	<div class="box alt container">
+		<section class="feature left">
+			<div class="image"><img src="images/logo.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Theme</h2>
+				<p>ith the topic ‘’Hack Into The City’’, we are looking forward to ideas that can make cities ‘’smarter’’.
+					Nowadays, cities face more challenges than ever, e.g. climate change, aging populations,
+					public transportation and urban regeneration etc. By the power of imagination and programming,
+					we are looking forward to making cities more convenient, clever, and friendly.
+					<br>Apply now to be a hacker into the city!</p>
+			</div>
+		</section>
+		<section class="feature right" id="special">
+			<!--<div class="special">-->
+			<div class="image2"><img src="images/special1.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Feature</h2>
+				<p>Linking to the policy "World Design Capital Taipei 2016" launced by Taipei City Government,
+					HackNTU is targeting two major elements in the campaign, “Entrepreneur Taipei” and “Smart City”,
+					and explore a new way toward globalization as well as innovation with all the participants.<br>
+					2015 HackNTU also establish close cooperation with some other prestigious hackathon partners,
+					like TreeHacks and MHacks from the states, HackShanghai and Unique Hack Day from China, and Global Hackathon Seoul from Korea.<br>
+					We have invited numerous champion teams to join the event and share their experience
+					with other participants during this amazing period.<br>
+					With the expectations from corporations, encouragements from governments,
+					and the support from our partners all over the world, it’s our privilege to invite you to Taiwan in August 2015.<br>
+					Let's gather together and Hack into the city in the top level venue and well-appointed battle field!
+				</p>
+			<!--</div>-->
+			</div>
+		</section>
+		<section class="feature left">
+			<div class="image"><img src="images/team.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Who We Are</h2>
+				<p>Started in 2013 as a student society, HackNTU is a non-profit organization aimed to promote hacker spirit, which evaluates the philosophy of “Getting hands dirty”.
+					Activities and courses are held to support the hacker community and to get more people involved, including an annual hackathon. <br><br>To learn more, visit our website: www.hackntu.org</p>
+			</div>
+		</section>
+	</div>
+
+	<header class="major container 75%" id="content">
+		<h1>Outline</h1>
+	</header>
+
+	<div class="box alt container">
+		<section class="feature left prize">
+			<div class="image"><img src="images/plug&play.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Prize</h2>
+				<p><h4><b>General Top3</b></h4>
+				The 1st place winning team will be awarded with 20,000NTD! <br>
+				<h4><b>Make Your Way to Silicon Valley!</b></h4>
+				Get the chance to join Plug & Play's 3-month Start-up Accelerator Program by winning their API Tech Prize!<br>
+				<h4><b>Free Trip to Manila!</b></h4>
+				A 2-day trip arranged by business sponsor migo is ready to go! Winners get to visit migo's branch in Philippine and enjoy their stay for FREE!</p>
+			</div>
+		</section>
+		<section class="feature right">
+			<div class="image"><img src="images/speaker.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Mentor</h2>
+				<p>Get prepared for mentors from Make School!<br>
+					Located in Silicon Valley, Make School is a two year college replacement program for founders and developers which empowers students to create products that improves the lives of others.<br>
+					Pleasingly, 2015HackNTU introduces our participants to 8 of the Make School lecturers. Apply now for the lifetime chance!</p>
+			</div>
+		</section>
+		<section class="feature left">
+			<div class="image"><img src="images/registration.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Venue</h2>
+				<p>For the sake of welcoming both local and foreign guests, 2015HackNTU reserved B1, 1F, and 2F of the NTU Sports Center, including more than 5-thousand square meters, as your hacking space.
+					<br>While unlimited food and beverage are served 24-7, endorse yourself at indoor swimming pool, squash room, and table tennis room. Besides, the whole stadium is also covered by intense dual band wifi with 1Gbps bandwidth; we hope you enjoy our high-speed internet service with the finest stability!</p>
+			</div>
+		</section>
+	</div>
+
+	<header class="major container 75%" id="schedule">
+		<h1>Schedule</h1>
+		<!--
+        <p>Tellus erat mauris ipsum fermentum<br />
+        etiam vivamus nunc nibh morbi.</p>
+        -->
+	</header>
+	<center><img class="schedule_photo" src="images/schedule.png"></img></center>
+
+	<div class="box alt container">
+		<section class="feature right">
+			<div class="image"><img src="images/tech.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Tech Talk & API Talk</h2>
+				<p>	Informative Tech Talk and API Talk offered by sponsoring corporations. Speakers from different tech fields will be giving speech during the three-day hacking hours, including Google Taiwan managing director Chien Lee-feng, who will be our keynote speaker for the opening ceremony!</p>
+			</div>
+		</section>
+		<section class="feature left" id="special2">
+			<!--<div class="special">-->
+			<div class="image2"><img src="images/special.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Special Event</h2>
+				<p>We know you're here to hack, but you would never want to miss out our picks of activities. Special events including Taiji, Yoga, and even a Laser Tag are organised only for participants of 2015hackNTU!</p>
+			<!--</div>-->
+			</div>
+		</section>
+		<section class="feature right">
+			<div class="image"><img src="images/traval.jpg" alt=""/></div>
+			<div class="content">
+				<h2>Pre Hackathon</h2>
+				<p>Foreign participants are invited to join pre-hackathon as a welcoming event. Make it your inspiration for project development during the coming hackathon!
+					<br><br>(Application form for Pre Hackathon will be available soon on Accupass.  An invitation to applying will be sent via email.)</p>
+			</div>
+		</section>
+	</div>
+
+	<header class="major container 75%" id="apply">
+		<h1>Entry</h1>
+	</header>
+	<div class = "major box alt container 75% res" style="background:#ffffff">
+		<h3>Registration</h3>
+		<p><b>How to Apply</b>
+			<br>Individual online application only, visit our registration page on Accupass and sign up.<br>
+			Once the application is approved, please re-forward your flight ticket info as confirmation.<br>
+			<br><b>Requirement</b><br>
+			There are no certain criteria for application. However, we do look for developers, designers and product specialists. <br>
+			<br><b>Fee</b><br>
+			Holding the spirit of being an NPO, the hackathon is presented to you for <b>FREE!</b><br>
+			<br><b>Verification Standards</b><br>
+			Participants will be chosen based on prior works, including hackathon experiences, projects, awards, products etc.<br>
+			<br><b>Timeline</b><br>
+			Foreign Participants: Due 07/14<br>
+			Domestic Participants: Due 07/31<br>
+			First round admission: Released on 06/30<br>
+			Second round admission: Released on 07/14<br>
+			Third round admission: Released on 08/04<br> </p>
+		<h3>Terms & Conditions</h3>
+		<p><b>Team Building</b>
+			<br>At 2015HackNTU, you can count yourself as a team if you want to work alone. However, we believe that teamwork makes the dream work, so meet the talents and make wonders together!
+			<br>Each team should be consist of up to 4 participants. For those who can't find your teammates, we've got your back! A team-up event will be held on Aug. 21st, right before the  hackathon begins in order to help those who registered without a team.
+		</p>
+		<ul class="actions" style="padding-top:30px;">
+			<li><a class="button" id="button_apply" onclick="butApplyOnClick(event)">apply now</a></li>
+			<li class="taiwan">
+				<a href="http://goo.gl/ROSWlQ" id="button_taiwan" target="_blank">Taiwan</a>
+			</li>
+			<li class="foreign">
+				<a href="http://www.accupass.com/event/register/1505141917107287993140" id="button_foreign" target="_blank">Foreign</a>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+	<header class="major container 75%" id="faq">
+		<h1>FAQ</h1>
+	</header>
+
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Registration</a></li>
+			<li><a href="#tabs-2">Hackathon</a></li>
+		</ul>
+		<div id="tabs-1">
+			<p><b>Q:I haven't received any confirmation after filling out the forms, do I have to apply again?</b>
+				<br>A:There's no auto-reply for application. It could take up to 1 week for us to send out confirmation mails, thank you for your patience and understanding.<br>
+				<br><b>Q:Is group registration available?</b>
+				<br>A:Participants are more than welcomed to register as a four-member team, but every member should sign up individually and list team members’ names in the registration form. <br>
+				<br><b>Q:When exactly will I know whether my application is approved ? </b>
+				<br>A:You'll receive a notification via email once the admission is released.</p>
+		</div>
+		<div id="tabs-2">
+			<p><b>Q:What should I bring?</b><br>
+				A:We've prepared some devices for you, but we DO NOT provide computers, so make sure you pack it up.</p>
+		</div>
+	</div>
+
+	<header class="major container 75%" id="partner">
+		<h1>Partner</h1>
+	</header>
+
+	<div class="box alt container logo">
+		<section id="invitation">
+			<h2>Invitation</h2>
+			<div class="content">
+				<div class="content-inner">
+					<div>
+						<a href="http://www.hackbca.com/" target="_blank">
+							<img src="images/hackBCA.jpg">
+						</a>
+						<div class="description">Bergen County Academies</div>
+					</div>
+					<div>
+						<a href="http://www.hackshanghai.com/cn/" target="_blank">
+							<img src="images/hackShanghai.png">
+						</a>
+						<div class="description">New York University Shanghai</div>
+					</div>
+					<div>
+						<a href="http://mhacks.org/" target="_blank">
+							<img src="images/mhacks.jpg">
+						</a>
+						<div class="description">University of Michigan</div>
+					</div>
+					<div>
+						<a href="http://www.ucsbhacks.com/" target="_blank">
+							<img src="images/sbhacks.jpg">
+						</a>
+						<div class="description">University of California, Santa Barbara</div>
+					</div>
+					<div>
+						<a href="https://www.treehacks.com/" target="_blank">
+							<img src="images/treehacks.jpg">
+						</a>
+						<div class="description">Stanford University</div>
+					</div>
+					<div>
+						<a href="http://hacks.hustunique.com" target="_blank">
+							<img src="images/UniqueHackDay.svg">
+						</a>
+						<div class="description">Huazhong University of Science and Technology</div>
+					</div>
+					<div>
+						<a href="http://hackthenorth.com/" target="_blank">
+							<img src="images/hackTheNorth.jpg">
+						</a>
+						<div class="description">University of Waterloo</div>
+					</div>
+					<div>
+						<a href="https://seoul.globalhackathon.io" target="_blank">
+							<img src="images/globalHackathonSeoul.jpg">
+						</a>
+						<div class="description">Global Hackathon Seoul</div>
+					</div>
+					<div>
+						<a href="http://hack.ust.hk" target="_blank">
+							<img src="images/hackUST.jpg">
+						</a>
+						<div class="description">Hong Kong University of Science and Technology</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="support">
+			<h2>Support</h2>
+			<div class="content">
+				<div class="content-inner">
+					<div>
+						<img src="images/cep.png">
+					</div>
+					<div>
+						<img src="images/nctu.jpg">
+					</div>
+					<div>
+						<img src="images/nthu.jpg">
+					</div>
+					<div>
+						<img src="images/hackathon_taiwan_circle.jpg">
+					</div>
+					<div>
+						<img src="images/taiker.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sponsor">
+			<h2>Sponsor</h2>
+			<div class="content">
+				<div class="content-inner">
+					<div>
+						<a href="http://www.tutorabc.com/aspx/mvc" target="_blank">
+							<img src="images/tutorABC.jpg">
+						</a>
+					</div>
+					<div>
+						<a href="https://sudo.com.tw/" target="_blank">
+							<img src="images/sudo.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="content-inner">
+					<div>
+						<a href="http://tw.cyberlink.com/" target="_blank">
+							<img src="images/cyberlink.png">
+						</a>
+					</div>
+					<div>
+						<a href="http://www.plugandplaytechcenter.com/" target="_blank">
+							<img src="images/plug_and_play.png">
+						</a>
+					</div>
+					<div>
+						<a href="http://www.job178.com.tw/" target="_blank">
+							<img src="images/178.png">
+						</a>
+					</div>
+					<div>
+						<a href="http://fun.gov.taipei/" target="_blank">
+							<img src="images/taipei_city.jpg">
+						</a>
+					</div>
+					<div>
+						<a href="https://migo.tv/intl/" target="_blank">
+							<img src="images/migo.png">
+						</a>
+					</div>
+					<div>
+						<a href="http://www.vpon.com/zh-tw/" target="_blank">
+							<img src="images/vpon.png">
+						</a>
+					</div>
+					<div>
+						<a href="http://www.accupass.com" target="_blank">
+							<img src="images/accupass.png">
+						</a>
+					</div>
+					<div>
+						<a href="http://www.neurosky.com.tw/" target="_blank">
+							<img src="images/neurosky.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="major container 75%" id="apply">
+		<ul class="actions">
+			<li><a class="button" id="footer_button_apply" onclick="butApplyOnClick(event)">apply now</a></li>
+			<li class="taiwan">
+				<a href="http://goo.gl/ROSWlQ" id="footer_button_taiwan" target="_blank">Taiwan</a>
+			</li>
+			<li class="foreign">
+				<a href="http://www.accupass.com/event/register/1505141917107287993140" id="footer_button_foreign" target="_blank">Foreign</a>
+			</li>
+		</ul>
+	</footer>
+</div>
+<!-- Footer -->
+<div id="footer">
+	<!-- <img src="images/footer.png"> -->
+	<div class="container 75%">
+        <header class="major last">
+			<div id="footer-nav" >
+				<ul>
+					<li><a onclick="hrefOnClick('#header',event)">Home</a></li>
+					<li><a onclick="hrefOnClick('#intro',event)">About</a></li>
+					<li><a onclick="hrefOnClick('#content',event)">Outline</a></li>
+					<li><a onclick="hrefOnClick('#schedule',event)">Schedule</a></li>
+					<li><a onclick="hrefOnClick('#apply',event)">Entry</a></li>
+					<li><a onclick="hrefOnClick('#faq',event)">FAQ</a></li>
+					<li><a onclick="hrefOnClick('#partner',event)">Partner</a></li>
+				</ul>
+			</div>
+			<div id="icon">
+				<ul>
+					<li><a href="https://www.facebook.com/hackNTU"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+					<li><a href="mailto:hackntu@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+					<li><a>中文</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="copyright">
+			<span>Copyright</span>
+			<i class="fa fa-copyright"></i>
+			<span>2015 HackNTU All Right Reserved.</span>
+		</div>
+	</div>
+
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
