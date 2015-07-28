@@ -2926,7 +2926,7 @@ input[type="button"].small,
 #invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
 	position: relative;
 	display: inline-block;
-	margin: 0.5em 5%;
+	margin: 1em 5%;
 	width: 23%;
 }
 #invitation > .content > .content-inner div.description {
