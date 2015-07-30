@@ -3293,17 +3293,17 @@ input[type="button"].small,
 	}
 
 	body.navPanel-visible #page-wrapper {
-		-moz-transform: translateY(66vh);
-		-webkit-transform: translateY(66vh);
-		-ms-transform: translateY(66vh);
-		transform: translateY(66vh);
+		-moz-transform: translateY(80vh);
+		-webkit-transform: translateY(80vh);
+		-ms-transform: translateY(80vh);
+		transform: translateY(80vh);
 	}
 
 	body.navPanel-visible #navButton {
-		-moz-transform: translateY(66vh);
-		-webkit-transform: translateY(66vh);
-		-ms-transform: translateY(66vh);
-		transform: translateY(66vh);
+		-moz-transform: translateY(80vh);
+		-webkit-transform: translateY(80vh);
+		-ms-transform: translateY(80vh);
+		transform: translateY(80vh);
 	}
 
 	body.navPanel-visible #navPanel {
