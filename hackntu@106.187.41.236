@@ -44,17 +44,16 @@
 	<div id="sub_main" class="navbar navbar-fixed-top" >
 		<div id="nav" class="navbar-collapse collapse container">
 			<ul>
-				<li><a onclick="hrefOnClick('#header',event)">Home</a></li>
-				<li><a onclick="hrefOnClick('#intro',event)">About</a></li>
-				<li><a onclick="hrefOnClick('#content',event)">Outline</a></li>
-				<li><a onclick="hrefOnClick('#schedule',event)">Schedule</a></li>
-				<li><a onclick="hrefOnClick('#apply',event)">Entry</a></li>
+				<li><a onclick="hrefOnClick('#header',event)">首頁</a></li>
+				<li><a onclick="hrefOnClick('#intro',event)">活動介紹</a></li>
+				<li><a onclick="hrefOnClick('#content',event)">活動內容</a></li>
+				<li><a onclick="hrefOnClick('#schedule',event)">活動時程</a></li>
+				<li><a onclick="hrefOnClick('#apply',event)">參加活動</a></li>
 				<li><a onclick="hrefOnClick('#faq',event)">FAQ</a></li>
-				<li><a onclick="hrefOnClick('#partner',event)">Partner</a></li>
-				<li><a href="https://2015.hackntu.org">中文</a></li>
-				<li class="icon"><a href="https://www.facebook.com/hackNTU" class="fa fa-facebook-square fa-lg"><span>facebook</span></a></li>
-				<li class="icon"><a href="mailto:hackntu@gmail.com" class="fa fa-envelope fa-lg"><span>Contact us</span></a></li>
-
+				<li><a onclick="hrefOnClick('#partner',event)">合作夥伴</a></li>
+				<li><a href="https://2015.hackntu.org/en">English</a></li>
+				<li class="icon"><a href="https://www.facebook.com/hackNTU" class="fa fa-facebook-square fa-lg"><span>facebook 粉絲專頁</span></a></li>
+				<li class="icon"><a href="mailto:hackntu@gmail.com" class="fa fa-envelope fa-lg"><span>聯絡我們</span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -86,7 +85,7 @@
 <div id="main">
 
 	<header class="major container 75%" id="intro">
-		<h1>About</h1>
+		<h1>活動介紹</h1>
 
 	</header>
 
@@ -94,81 +93,72 @@
 		<section class="feature left">
 			<div class="image"><img src="images/logo.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Theme</h2>
-				<p>ith the topic ‘’Hack Into The City’’, we are looking forward to ideas that can make cities ‘’smarter’’.
-					Nowadays, cities face more challenges than ever, e.g. climate change, aging populations,
-					public transportation and urban regeneration etc. By the power of imagination and programming,
-					we are looking forward to making cities more convenient, clever, and friendly.
-					<br>Apply now to be a hacker into the city!</p>
+				<h2>主題</h2>
+				<p>現代城市面臨眾多巨變和挑戰：氣候變遷、人口老化所帶來的衝擊，以及大眾運輸、都市更新引發的問題等。2015HackNTU 與臺北市政府合作，以「智慧城市」為題 ，
+					期望與會者在為期三天的 Hacking中，互相交流、激盪出嶄新的構想，讓這座城市變得更加智慧、友善，走向國際與創新 !<br>現在就加入我們，一起 Hack Into The City！</p>
 			</div>
 		</section>
 		<section class="feature right" id="special">
 			<!--<div class="special">-->
 			<div class="image2"><img src="images/special1.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Feature</h2>
-				<p>Linking to the policy "World Design Capital Taipei 2016" launced by Taipei City Government,
-					HackNTU is targeting two major elements in the campaign, “Entrepreneur Taipei” and “Smart City”,
-					and explore a new way toward globalization as well as innovation with all the participants.<br>
-					2015 HackNTU also establish close cooperation with some other prestigious hackathon partners,
-					like TreeHacks and MHacks from the states, HackShanghai and Unique Hack Day from China, and Global Hackathon Seoul from Korea.<br>
-					We have invited numerous champion teams to join the event and share their experience
-					with other participants during this amazing period.<br>
-					With the expectations from corporations, encouragements from governments,
-					and the support from our partners all over the world, it’s our privilege to invite you to Taiwan in August 2015.<br>
-					Let's gather together and Hack into the city in the top level venue and well-appointed battle field!
-				</p>
+				<h2>特色</h2>
+				<p>繼HackNTU五位創辦人2013年，從矽谷引進黑客松活動後，2015HackNTU核心籌備成員也在今年寒假前往矽谷取經。為了更加熟悉矽谷氛圍之外，
+					亦參加了MHacks、SBHacks、TreeHacks、中國武漢大學黑客松Unique Hack Day等等知名校園黑客松，學習國外大規模黑客松的籌辦方式與特色，並加以內化。<br><br>
+					2015HackNTU希望能從黑客松的發源地，把最Original 也最有 Hacker Spirit 的黑客松帶回國內，除了 Hacking 活動之外將有 Expo 後 Demo的機制，
+					也搭配不同的娛樂休閒活動，目的就是為了提供開發者最舒適工作環境，激發跨領域的合作關係，提供企業、政府與市民開發者們的互利正向循環。
+					一場串聯企業、學界、世界的巨大 Hacking 盛宴，2015HackNTU邀請您一同參與！</p>
 			<!--</div>-->
 			</div>
 		</section>
 		<section class="feature left">
 			<div class="image"><img src="images/team.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Who We Are</h2>
-				<p>Started in 2013 as a student society, HackNTU is a non-profit organization aimed to promote hacker spirit, which evaluates the philosophy of “Getting hands dirty”.
-					Activities and courses are held to support the hacker community and to get more people involved, including an annual hackathon. <br><br>To learn more, visit our website: www.hackntu.org</p>
+				<h2>團隊</h2>
+				<p>成立於 2013 年，HackNTU 是一個由學生發起的非營利組織，致力於推廣『黑客精神（Hacker Spirit）』，強調探索世界、透過技術解決問題的精神。
+					除了舉行一年一度的黑客松，HackNTU 也籌辦課程講座、技術聚會等活動，凝聚社群、增進交流。<br><br>更多詳情請上HackNTU官方網站：www.hackntu.org</p>
 			</div>
 		</section>
 	</div>
 
 	<header class="major container 75%" id="content">
-		<h1>Outline</h1>
+		<h1>活動內容</h1>
 	</header>
 
 	<div class="box alt container">
 		<section class="feature left prize">
 			<div class="image"><img src="images/plug&play.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Prize</h2>
-				<p><h4><b>General Top3</b></h4>
-				The 1st place winning team will be awarded with 20,000NTD! <br>
-				<h4><b>Make Your Way to Silicon Valley!</b></h4>
-				Get the chance to join Plug & Play's 3-month Start-up Accelerator Program by winning their API Tech Prize!<br>
-				<h4><b>Free Trip to Manila!</b></h4>
-				A 2-day trip arranged by business sponsor migo is ready to go! Winners get to visit migo's branch in Philippine and enjoy their stay for FREE!</p>
+				<h2>獎項</h2>
+				<p><h4><b>Top3現金大獎</b></h4>
+				總獎金新台幣 40 萬元，其中評選第一名的優勝團隊將獨得 20 萬元！<br>
+				<h4><b>前進矽谷創業中心</b></h4>
+				Plug&Play API 獎帶你前進美國矽谷！獲獎團隊將能前往 Plug&Play 創業加速育成中心接受為期三個月的新創培訓！<br>
+				<h4><b>企業招待國外旅遊</b></h4>
+				Migo 優勝團隊不僅能獲得獎金，還可以受邀至 migo 菲律賓總部參訪，兩天一夜的豐富行程全部免費！</p>
 			</div>
 		</section>
 		<section class="feature right">
 			<div class="image"><img src="images/speaker.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Mentor</h2>
-				<p>Get prepared for mentors from Make School!<br>
-					Located in Silicon Valley, Make School is a two year college replacement program for founders and developers which empowers students to create products that improves the lives of others.<br>
-					Pleasingly, 2015HackNTU introduces our participants to 8 of the Make School lecturers. Apply now for the lifetime chance!</p>
+				<h2>技術指導</h2>
+				<p>準備好接受啟發了嗎？2015HackNTU 請來八位 Make School 講師擔任本次活動的技術指導！<br>
+					位於美國矽谷的 Make School 是一間致力於以科技改變世界的網路學校，透過結合學校認證機制，提供一流的講師，讓科技人才在未來能獨當一面，成為改變世界的靈魂人物。<br>
+					千萬別錯過與 Make School 講師們近距離互動的機會！</p>
 			</div>
 		</section>
 		<section class="feature left">
 			<div class="image"><img src="images/registration.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Venue</h2>
-				<p>For the sake of welcoming both local and foreign guests, 2015HackNTU reserved B1, 1F, and 2F of the NTU Sports Center, including more than 5-thousand square meters, as your hacking space.
-					<br>While unlimited food and beverage are served 24-7, endorse yourself at indoor swimming pool, squash room, and table tennis room. Besides, the whole stadium is also covered by intense dual band wifi with 1Gbps bandwidth; we hope you enjoy our high-speed internet service with the finest stability!</p>
+				<h2>場地</h2>
+				<p>臺大綜合體育館B1, 1F, 2F 三層樓，總計近5000坪的空間，並設有245坪的休息區域，寬敞又舒適，還有壁球室、桌球室、游泳池等設施免費開放使用！
+					<br>為了讓您能夠火力全開、盡情創造，我們還準備了無限量的免費食物與飲料，以及又快又穩的 1 Gbps 雙頻企業級無線網路——綿密覆蓋場地的頻寬，固定制線路低Ping值，讓您Hacking順暢零阻礙。</p>
 			</div>
 		</section>
 	</div>
 
 	<header class="major container 75%" id="schedule">
-		<h1>Schedule</h1>
+		<h1>活動時程</h1>
 		<!--
         <p>Tellus erat mauris ipsum fermentum<br />
         etiam vivamus nunc nibh morbi.</p>
@@ -180,53 +170,61 @@
 		<section class="feature right">
 			<div class="image"><img src="images/tech.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Tech Talk & API Talk</h2>
-				<p>	Informative Tech Talk and API Talk offered by sponsoring corporations. Speakers from different tech fields will be giving speech during the three-day hacking hours, including Google Taiwan managing director Chien Lee-feng, who will be our keynote speaker for the opening ceremony!</p>
+				<h2>技術講座</h2>
+				<p>	各技術領域的專業講者，將於黑客松活動間開設技術講座，分享技術應用和開發經驗，Google台灣區總經理-簡立峰先生亦於開場致詞！</p>
 			</div>
 		</section>
 		<section class="feature left" id="special2">
 			<!--<div class="special">-->
 			<div class="image2"><img src="images/special.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Special Event</h2>
-				<p>We know you're here to hack, but you would never want to miss out our picks of activities. Special events including Taiji, Yoga, and even a Laser Tag are organised only for participants of 2015hackNTU!</p>
+				<h2>特別活動</h2>
+				<p>在 2015HackNTU 黑客松，不只可以專注於開發專案、享受無限供應的食物，我們安排了一系列特別活動和服務，讓你在 Hacking 之外，也能放鬆心情、盡情玩樂！<br><br>
+					更多最新鮮有趣的體驗都在 2015HackNTU</p>
 			<!--</div>-->
 			</div>
 		</section>
 		<section class="feature right">
 			<div class="image"><img src="images/traval.jpg" alt=""/></div>
 			<div class="content">
-				<h2>Pre Hackathon</h2>
-				<p>Foreign participants are invited to join pre-hackathon as a welcoming event. Make it your inspiration for project development during the coming hackathon!
-					<br><br>(Application form for Pre Hackathon will be available soon on Accupass.  An invitation to applying will be sent via email.)</p>
+				<h2>會前行程</h2>
+				<p>想要有更多時間與來自各國的 Hacker 交流嗎？
+					<br>想要獲得更多 Hacking 靈感嗎？
+					<br>2015HackNTU 精心設計了會前活動，豐富你的思考、激發更多靈感和創意！
+					<br><br>現在就報名參加會前活動，豐富你的思考、激發更多靈感和創意！（僅開放通過審核者報名參加，詳情請待官方email通知）</p>
 			</div>
 		</section>
 	</div>
 
 	<header class="major container 75%" id="apply">
-		<h1>Entry</h1>
+		<h1>參加活動</h1>
 	</header>
 	<div class = "major box alt container 75% res" style="background:#ffffff">
-		<h3>Registration</h3>
-		<p><b>How to Apply</b>
-			<br>Individual online application only, visit our registration page on Accupass and sign up.<br>
-			Once the application is approved, please re-forward your flight ticket info as confirmation.<br>
-			<br><b>Requirement</b><br>
-			There are no certain criteria for application. However, we do look for developers, designers and product specialists. <br>
-			<br><b>Fee</b><br>
-			Holding the spirit of being an NPO, the hackathon is presented to you for <b>FREE!</b><br>
-			<br><b>Verification Standards</b><br>
-			Participants will be chosen based on prior works, including hackathon experiences, projects, awards, products etc.<br>
-			<br><b>Timeline</b><br>
-			Foreign Participants: Due 07/14<br>
-			Domestic Participants: Due 07/31<br>
-			First round admission: Released on 06/30<br>
-			Second round admission: Released on 07/14<br>
-			Third round admission: Released on 08/04<br> </p>
-		<h3>Terms & Conditions</h3>
-		<p><b>Team Building</b>
-			<br>At 2015HackNTU, you can count yourself as a team if you want to work alone. However, we believe that teamwork makes the dream work, so meet the talents and make wonders together!
-			<br>Each team should be consist of up to 4 participants. For those who can't find your teammates, we've got your back! A team-up event will be held on Aug. 21st, right before the  hackathon begins in order to help those who registered without a team.
+		<h3>報名須知</h3>
+		<p><b>報名方式</b>
+			<br>採網路個人報名，請上活動通報名頁面填寫資料，表單確認送出後須經過審核，審核通過並完成繳費方可參加
+			<b>報名流程（國內）</b><br>
+			Step1：上活動通報名頁面填寫資料申請報名，收到 HackNTU 確認申請信件<br>
+			Step2：通過審核，收到 HackNTU 認證信件<br>
+			Step3：於資格審核通過（含核發當日）三日內繳交保證金300元<br>
+			Step4：收到活動通繳費確認信，完成報名<br>
+			<br><b>報名資格</b><br>
+			不限年齡、身分，歡迎所有開發者、設計師，以及其他領域之專才報名！<br>
+			<br><b>報名費用</b><br>
+			臺大黑客松秉持非營利組織的精神，整場活動免費參加！<br>
+			但需酌收三百元保證金以保障活動品質，款項將於 08/21 開幕報到時全額退還。<br>
+			<br><b>審核標準</b><br>
+			主要參照報名者的經歷、技術能力、過去開發專案做為評斷標準。<br>
+			為保障學生與各界好手交流的機會，當相關經歷和技術能力條件相同，審核將以現為學生身份者優先錄取。<br>
+			<br><b>報名時程</b><br>
+			國外參加者報名截止：07/14 <br>
+			第一波錄取名單公布：06/30 <br>
+			第二波錄取名單公布：07/20 <br>
+			國內參加者報名截止：07/31 <br>
+			第三波錄取名單公布：08/04<br> </p>
+		<h3>相關規章</h3>
+		<p><b>組隊規則</b>
+			<br>黑客松進行以至多4人為一組進行，如為單獨報名參加，我們也會在黑客松開始前、 8/21當天安排媒合活動，協助參加者事賽前、活動當天現場組隊。
 		</p>
 		<ul class="actions" style="padding-top:30px;">
 			<li><a class="button" id="button_apply" onclick="butApplyOnClick(event)">apply now</a></li>
@@ -249,30 +247,30 @@
 
 	<div id="tabs">
 		<ul>
-			<li><a href="#tabs-1">Registration</a></li>
-			<li><a href="#tabs-2">Hackathon</a></li>
+			<li><a href="#tabs-1">報名相關</a></li>
+			<li><a href="#tabs-2">黑客松相關</a></li>
 		</ul>
 		<div id="tabs-1">
-			<p><b>Q:I haven't received any confirmation after filling out the forms, do I have to apply again?</b>
-				<br>A:There's no auto-reply for application. It could take up to 1 week for us to send out confirmation mails, thank you for your patience and understanding.<br>
-				<br><b>Q:Is group registration available?</b>
-				<br>A:Participants are more than welcomed to register as a four-member team, but every member should sign up individually and list team members’ names in the registration form. <br>
-				<br><b>Q:When exactly will I know whether my application is approved ? </b>
-				<br>A:You'll receive a notification via email once the admission is released.</p>
+			<p><b>Q:我已經送出活動通申請表單了，為何還沒收到確認信？</b>
+				<br>A:報名系統並無自動回信設計，團隊每週定期手動寄發確認信，故表單送出後若沒有馬上收到回音，請耐心等候幾天！<br>
+				<br><b>Q:審查是採隨到隨審（Rolling Admission）還是統一集中審核？</b>
+				<br>A:參加資格係按照報名時程分波統一審核，並於錄取名單公布當日統一寄出認證信件。<br>
+				<br><b>Q:我已經有隊友了，可以採團體報名嗎？</b>
+				<br>A:非常歡迎組隊參加（最多4 人為一組），但每位隊員都須個別報名、並於報名欄位中註明隊友名單，以便統計人數。</p>
 		</div>
 		<div id="tabs-2">
-			<p><b>Q:What should I bring?</b><br>
-				A:We've prepared some devices for you, but we DO NOT provide computers, so make sure you pack it up.</p>
+			<p><b>Q:我需要自己準備電腦嗎？</b><br>
+				A:現場提供各種硬體出借，但不包含筆記型電腦，請與會者務必自行攜帶。</p>
 		</div>
 	</div>
 
 	<header class="major container 75%" id="partner">
-		<h1>Partner</h1>
+		<h1>合作夥伴</h1>
 	</header>
 
 	<div class="box alt container logo">
 		<section id="invitation">
-			<h2>Invitation</h2>
+			<h2>國際夥伴</h2>
 			<div class="content">
 				<div class="content-inner">
 					<div>
@@ -339,7 +337,7 @@
 			</div>
 		</section>
 		<section id="support">
-			<h2>Support</h2>
+			<h2>協辦單位</h2>
 			<div class="content">
 				<div class="content-inner">
 					<div>
@@ -366,11 +364,9 @@
 					<div>
 						<img src="images/taiker.png">
 					</div>
-
 					<div>
 						<img src="images/nthu.jpg">
 					</div>
-
 					<div>
 						<img src="images/inn.png">
 					</div>
@@ -393,7 +389,7 @@
 			</div>
 		</section>
 		<section id="sponsor">
-			<h2>Sponsor</h2>
+			<h2>贊助單位</h2>
 			<div class="content">
 				<div class="content-inner">
 					<div>
@@ -455,11 +451,6 @@
 							<img src="images/Bilingual-H.png">
 						</a>
 					</div>
-					<div>
-						<a href="http://picsart.com/" target="_blank">
-							<img src="images/pics.png">
-						</a>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -483,20 +474,20 @@
         <header class="major last">
 			<div id="footer-nav" >
 				<ul>
-					<li><a onclick="hrefOnClick('#header',event)">Home</a></li>
-					<li><a onclick="hrefOnClick('#intro',event)">About</a></li>
-					<li><a onclick="hrefOnClick('#content',event)">Outline</a></li>
-					<li><a onclick="hrefOnClick('#schedule',event)">Schedule</a></li>
-					<li><a onclick="hrefOnClick('#apply',event)">Entry</a></li>
+					<li><a onclick="hrefOnClick('#header',event)">首頁</a></li>
+					<li><a onclick="hrefOnClick('#intro',event)">活動介紹</a></li>
+					<li><a onclick="hrefOnClick('#content',event)">活動內容</a></li>
+					<li><a onclick="hrefOnClick('#schedule',event)">活動時程</a></li>
+					<li><a onclick="hrefOnClick('#apply',event)">參加活動</a></li>
 					<li><a onclick="hrefOnClick('#faq',event)">FAQ</a></li>
-					<li><a onclick="hrefOnClick('#partner',event)">Partner</a></li>
+					<li><a onclick="hrefOnClick('#partner',event)">合作夥伴</a></li>
 				</ul>
 			</div>
 			<div id="icon">
 				<ul>
 					<li><a href="https://www.facebook.com/hackNTU"><i class="fa fa-facebook-square fa-lg"></i></a></li>
 					<li><a href="mailto:hackntu@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
-					<li><a href="https://2015.hackntu.org">中文</a></li>
+					<li><a href="https://2015.hackntu.org/en">English</a></li>
 				</ul>
 			</div>
 		</header>
