@@ -2939,7 +2939,7 @@ input[type="button"].small,
 	/* margin-right: auto; */
 }
 #sponsor > .content > .content-inner{
-	margin-bottom: 3em;
+	margin-bottom: 5%;
 }
 #sponsor > .content > .content-inner:first-child > div{
 	width:60%;
@@ -2958,7 +2958,7 @@ input[type="button"].small,
 	margin: 1em 4%;
 }
 #sponsor > .content{
-	padding-bottom:3em;
+	padding-bottom:5%;
 }
 #navPanel{
 	display: none;
@@ -3222,9 +3222,30 @@ input[type="button"].small,
 	margin: 1em 5%;
 	width: 33%;
 	}
+	#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
+		position: relative;
+		display: inline-block;
+		margin: 1em 5%;
+		width: 35%;
+	}
 	#sponsor > .content > .content-inner:first-child > div{
-	width:50%;
-	margin-bottom: 3em;
+		width:50%;
+		margin-bottom: 5%;
+	}
+	#sponsor > .content > .content-inner:first-child + .content-inner > div{
+		width:36%;
+		margin: 1em 5%;
+	}
+	#sponsor > .content > .content-inner:first-child + .content-inner + .content-inner > div{
+		width:32%;
+		margin: 1em 5%;
+	}
+	#sponsor > .content > .content-inner:first-child + .content-inner + .content-inner + .content-inner > div{
+		width:23%;
+		margin: 1em 4%;
+	}
+	#sponsor > .content{
+		padding-bottom:5%;
 	}
 }
 /* Narrower */
@@ -3568,16 +3589,7 @@ input[type="button"].small,
 	#footer form {
 		padding-bottom: 0;
 	}
-	#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
-		position: relative;
-		display: inline-block;
-		margin: 1em 5%;
-		width: 33%;
-	}
-	#sponsor > .content > .content-inner:first-child > div{
-		width:50%;
-		margin-bottom: 3em;
-	}
+	
 
 	/* Main */
 
