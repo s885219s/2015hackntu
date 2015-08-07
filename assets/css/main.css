@@ -2926,7 +2926,7 @@ input[type="button"].small,
 #invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
 	position: relative;
 	display: inline-block;
-	margin: 0.5em 5%;
+	margin: 1em 5%;
 	width: 23%;
 }
 #invitation > .content > .content-inner div.description {
@@ -2938,11 +2938,21 @@ input[type="button"].small,
 	/* margin-left: auto; */
 	/* margin-right: auto; */
 }
+#sponsor > .content > .content-inner{
+	margin-bottom: 3em;
+}
 #sponsor > .content > .content-inner:first-child > div{
 	width:60%;
 }
 #sponsor > .content > .content-inner:first-child + .content-inner> div{
 	width:35%;
+}
+#sponsor > .content > .content-inner:first-child + .content-inner + .content-inner> div{
+	width:23%;
+}
+#sponsor > .content > .content-inner:first-child + .content-inner + .content-inner + .content-inner> div{
+	margin: 1em 4%;
+	width:16%;
 }
 #sponsor > .content{
 	padding-bottom:3em;
