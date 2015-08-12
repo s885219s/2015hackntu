@@ -2919,15 +2919,21 @@ input[type="button"].small,
 	margin-right: auto;
 	margin-bottom:4em;
 }
-#invitation h2,#sponsor h2,#support h2 {
+#invitation h2,#co-organizer h2,#sponsor h2,#support h2 {
 	margin-bottom: 2em;
 	margin-top:2em;
 }
-#invitation > .content > .content-inner > div, #sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
+#invitation > .content > .content-inner > div,#sponsor > .content > .content-inner > div, #support > .content > .content-inner > div {
 	position: relative;
 	display: inline-block;
 	margin: 1em 5%;
 	width: 23%;
+}
+#co-organizer > .content > .content-inner > div{
+	position: relative;
+	display: inline-block;
+	margin: 1em 5%;
+	width: 35%;
 }
 #invitation > .content > .content-inner div.description {
 	margin-top: 0.5em;
@@ -3229,7 +3235,7 @@ input[type="button"].small,
 		width: 35%;
 	}
 	#sponsor > .content > .content-inner:first-child > div{
-		width:50%;
+		width:80%;
 		margin-bottom: 5%;
 	}
 	#sponsor > .content > .content-inner:first-child + .content-inner > div{
@@ -4568,7 +4574,7 @@ div#sub_main {}
 #btn_taiwan, #btn_foreign{
 	width:0;
 }
-#invitation,#support,#sponsor{
+#invitation,#co-organizer,#support,#sponsor{
 	background-color: #ffffff;
 	position: relative;
 	width: 100%;
