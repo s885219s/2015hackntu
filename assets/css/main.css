@@ -2727,6 +2727,7 @@ input[type="button"].small,
 }
 
 #nav > ul > li > a, #nav > ul > li > span {
+	cursor: pointer;
 	display: block;
 	color: inherit;
 	text-decoration: none;
